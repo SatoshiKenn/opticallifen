@@ -6,6 +6,10 @@
   --dark: #091e3e;
 }
 
+body {
+  background-image: url('/img/fondo.png');
+}
+
 #logo {
   width: 100px;
   height: auto;
