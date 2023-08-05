@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 991px) {
     .receta {
         margin-top: -35px;
     }
@@ -9,6 +9,6 @@
 
     .bg-primaryr {
     background-color: #1dc5db !important;
-    height: 350px;
+    height: 685px;
   }
 }

@@ -541,14 +541,11 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
+
 @media (min-width: 576px) {
   .container,
   .container-sm {
     max-width: 540px;
-  }
-
-  .prueba {
-    margin-top: 300px;
   }
 }
 @media (min-width: 768px) {
@@ -6837,6 +6834,10 @@ fieldset:disabled .btn {
 .bg-primary {
   background-color: #1dc5db !important;
 }
+.bg-primaryr {
+    background-color: #1dc5db !important;
+    height: 600px;
+  }
 .bg-secondary {
   background-color: #f57e57 !important;
 }
