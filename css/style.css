@@ -6,6 +6,8 @@
   --dark: #091e3e;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald&display=swap');
+
 body {
   background-image: url('/img/fondo.png');
 }
@@ -17,6 +19,14 @@ body {
 #logo {
   width: 100px;
   height: auto;
+}
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+p,h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1,
