@@ -1,0 +1,9 @@
+@media only screen and (max-width: 30rem) {
+    .receta {
+        margin-top: -35px;
+    }
+
+    .prueba {
+        margin-top: 300px;
+    }
+}
