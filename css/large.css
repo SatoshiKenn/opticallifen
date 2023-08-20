@@ -12,11 +12,25 @@
     height: 350px;
   }
 
+  .receta {
+    height: 300px;
+  }
+
   #recetaback {
     height: 320px;
+  }
+
+  #tiendacerrillos {
+    height: 400px;
   }
 
   #examenback {
     height: 600px;
   }
+
+  #tiendasanbernardo {
+    height: 400px;
+  }
+
+
 }
