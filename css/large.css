@@ -11,4 +11,12 @@
     background-color: #1dc5db !important;
     height: 350px;
   }
+
+  #recetaback {
+    height: 320px;
+  }
+
+  #examenback {
+    height: 600px;
+  }
 }
