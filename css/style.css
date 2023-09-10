@@ -65,6 +65,94 @@ body {
   color: #333; /* Color del texto */
 }
 
+/*Operativos*/
+/* Estilo del contenedor */
+.contenedoropera {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Organizar elementos en columna */
+  align-items: center; /* Centrar horizontalmente el contenido */
+  justify-content: center; /* Centrar verticalmente el contenido */
+  max-width: 100%; /* Ancho máximo del contenedor */
+  text-align: center; /* Centrar el contenido dentro del contenedor */
+  margin-bottom: 100px;
+  padding: 0 20px; /* Agregar un espacio interno al contenedor para evitar que llegue a los bordes */
+  overflow-x: hidden; /* Ocultar el desplazamiento horizontal */
+}
+
+/* Estilo de las imágenes */
+.imagenes img {
+  width: 100%; /* Las imágenes ocupan todo el ancho del contenedor */
+  max-height: auto; /* Mantener la proporción de aspecto */
+  position: relative; /* Establecer posición relativa para los elementos hijos */
+}
+
+/* Pseudoelemento para overlay */
+.imagenes::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%; /* Centrar horizontalmente el overlay */
+  transform: translateX(-50%); /* Ajustar la posición del overlay al centro */
+  width: 80%; /* Ancho del overlay ajustable según tus preferencias */
+  height: 100%;
+  background-color: rgba(57, 223, 252, 0.664);
+  opacity: 0.7;
+  z-index: 1; /* Colocar el overlay sobre las imágenes */
+}
+
+/* Estilo del encabezado */
+.lista h4 {
+  color: white; /* Color de texto blanco */
+  font-size: 3em; /* Tamaño de fuente del encabezado (ajustable según tus preferencias) */
+  margin-bottom: 10px; /* Espacio inferior para separar del contenido siguiente */
+}
+
+/* Estilo de la lista */
+.lista {
+  
+  padding: 10px; /* Espaciado interno para la lista */
+  position: absolute; /* Posición absoluta */
+  top: 50%; /* Centrar verticalmente la lista */
+  left: 50%; /* Centrar horizontalmente la lista */
+  transform: translate(-50%, -50%); /* Ajustar la posición de la lista al centro */
+  width: 100%; /* Utilizar todo el ancho del contenedor */
+  margin: 0; /* Eliminar márgenes */
+  list-style: none; /* Eliminar viñetas de la lista */
+  box-sizing: border-box; /* Incluir padding en el cálculo del ancho */
+  z-index: 2; /* Colocar la lista delante del overlay */
+  color: white; /* Color de texto blanco */
+}
+
+/* Estilo de los elementos de la lista */
+.lista li {
+  font-size: 2em; /* Tamaño de fuente de los elementos de la lista (ajustable según tus preferencias) */
+}
+
+/* Estilo de las imágenes (opcional) */
+.contenedoropera img {
+  max-width: 20%; /* Ancho máximo del 20% para cada imagen (4 imágenes en total) */
+  margin: 0 auto;
+}
+
+/* Estilo para hacer el texto responsive */
+@media (max-width: 768px) {
+  /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+  .lista h4 {
+      font-size: .6em; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+  }
+  .lista li {
+      font-size: .5em; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+  }
+}
+
+
+
+
+
+
+
+
 .receta {
   margin-top: -40px;
 }
