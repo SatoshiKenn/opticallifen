@@ -12,6 +12,59 @@ body {
   background-image: url("/img/fondo.png");
 }
 
+/* Estilos para la sección principal */
+.main-section {
+  background-image: url('../img/receta.png'); /* Ruta a la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #ffffff; /* Color del texto */
+  height: 100vh; /* Altura del 100% del viewport (alto de la pantalla) */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Alinea todo el contenido en la parte inferior */
+  align-items: center; /* Centra horizontalmente todo el contenido */
+}
+
+/* Estilos para el encabezado y el párrafo */
+#encabezado {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffffff; /* Color del texto */
+}
+
+#parrafo {
+  font-size: 18px;
+  color: #ffffff; /* Color del texto */
+}
+
+/* Estilos para el botón */
+#boton {
+  background-color: #007BFF; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  width: auto; /* Ancho automático (predeterminado) */
+  margin-bottom: 40px;
+}
+
+/* Estilo para la sección de direcciones */
+#section-address {
+  padding: 20px;
+}
+
+/* Estilo para el título de la sección */
+#section-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #333; /* Color del texto */
+}
+
 .receta {
   margin-top: -40px;
 }
@@ -37,7 +90,7 @@ body {
 }
 
 #examenback {
-  height: 1300px;
+  height: 1450px;
 }
 
 #tiendasanbernardo {

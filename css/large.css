@@ -1,13 +1,13 @@
 @media only screen and (min-width: 992px) {
-    .receta {
-        margin-top: -35px;
-    }
+  .receta {
+    margin-top: -35px;
+  }
 
-    .prueba {
-        margin-top: 100px;
-    }
+  .prueba {
+    margin-top: 100px;
+  }
 
-    .bg-primaryr {
+  .bg-primaryr {
     background-color: #1dc5db !important;
     height: 350px;
   }
@@ -21,16 +21,24 @@
   }
 
   #tiendacerrillos {
+    margin-top: 300px;
     height: 400px;
   }
 
   #examenback {
-    height: 600px;
+    height: 700px;
   }
 
   #tiendasanbernardo {
     height: 400px;
   }
 
+  #boton {
+    margin-bottom: 100px;
+  }
 
+    /* Estilo para el título de la sección */
+    #section-title {
+      font-size: 60px;
+    }
 }

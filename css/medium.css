@@ -1,13 +1,13 @@
 @media only screen and (min-width: 490px) and (max-width: 991px) {
-    .receta {
-        margin-top: -35px;
-    }
+  .receta {
+    margin-top: -35px;
+  }
 
-    .prueba {
-        margin-top: 100px;
-    }
+  .prueba {
+    margin-top: 100px;
+  }
 
-    .bg-primaryr {
+  .bg-primaryr {
     background-color: #1dc5db !important;
   }
 
@@ -20,10 +20,19 @@
   }
 
   #examenback {
-    height: 1100px;
+    height: 1250px;
   }
 
   #tiendasanbernardo {
     height: 840px;
+  }
+
+  #boton {
+    margin-bottom: 100px;
+  }
+
+  /* Estilo para el título de la sección */
+  #section-title {
+    font-size: 50px;
   }
 }
