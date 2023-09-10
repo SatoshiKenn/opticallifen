@@ -152,6 +152,18 @@ body {
 .formulario-container{
   margin-bottom: 25px;
 }
+
+.formulario-container h1 {
+  max-width: 500px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
+  padding: 20px;
+  background-color: #f7f7f7; /* Fondo del formulario */
+  border: 1px solid #ddd; /* Borde del formulario */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin-bottom: 20px;
+}
+
 form {
   max-width: 500px; /* Ancho máximo del formulario */
   margin: 0 auto; /* Centrar el formulario horizontalmente */
@@ -164,7 +176,7 @@ form {
 }
 
 /* Estilo general del formulario y del encabezado */
-form, h1 {
+form {
   max-width: 500px; /* Ancho máximo del formulario */
   margin: 0 auto; /* Centrar horizontalmente el formulario y el encabezado */
   padding: 20px;
