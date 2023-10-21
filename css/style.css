@@ -9,8 +9,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald&display=swap");
 
 body {
-  background-image: url("/img/fondo.png");
+  background-image: url('/img/fondo.png');
 }
+
+
 
 /* Estilos para la sección principal */
 .main-section {
@@ -213,7 +215,7 @@ input[type="submit"]:hover {
 }
 
 #examenback {
-  height: 1450px;
+  height: 1350px;
 }
 
 #tiendasanbernardo {
